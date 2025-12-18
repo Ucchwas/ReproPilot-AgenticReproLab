@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated output repos / artifacts
+demo_repro_repo/
+demo_repro_repo_*/
+demo_repro_repo_repo/
+demo_repo_repo/
+generated_repos/
+out/
+outputs/
+
+# Papers / PDFs (don’t publish copyrighted PDFs)
+papers/
+*.pdf
+
+# Local workspace & logs
+workspace/
+*.sqlite3
+*.db
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
